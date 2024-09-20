@@ -9,6 +9,7 @@ form{
 }
 .table-size{
     width:60%;
+    padding-top: 20px;
 }
 .check-size{
     width: 20%;
@@ -45,6 +46,34 @@ textarea{
     padding-left: 10px;
     padding-top: 10px;
 }
+table{
+    background-color: rgb(230, 214, 198);
+    height: 60%;
+    width: 95%;
+}
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table a{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+td{
+    text-align: center;
+}
+button{
+    background-color: rgb(153, 3, 3);
+    width: 200px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 15px;
+}
+.button{
+    padding-top:20px ;
+}
 /*Hover and Focus*/
 .checkbox label:hover{
     background-color: rgb(224, 209, 192);
@@ -60,4 +89,7 @@ textarea:hover{
 }
 textarea:focus{
     background-color: rgb(224, 209, 192);
+}
+button:hover{
+    background-color: rgb(104, 1, 1);
 }
