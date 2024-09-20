@@ -1,0 +1,136 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vida e Saúde</title>
+    <link href="default.css" rel="stylesheet">
+    <link href="sinais-vitais.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo-e-texto">
+            <div class="logo"><a href="initial.html"><img src=".\Imagens\Logo Branca.png" alt="logo"
+                    width="100px" height="100px"></a>
+            </div>
+            <div class="logo-texto">
+                <h1>Vida e Saúde</h1>
+            </div>
+        </div>
+    </div>
+    <div class="forma">
+        <div class="botao">
+            <nav>
+                <div class="botao-un">
+                    <a href="dados-pessoais.html">Dados Pessoais</a>
+                </div>
+                <div class="botao-un"><a href="anamnese.html">Anamnese</a>
+                </div>
+                <div class="botao-un"><a href="exame-fisico.html">Exame Físico</a>
+                </div>
+                <div class="botao-un">
+                    <a href="exames-laboratoriais.html">Exames Laboratoriais</a>
+                </div>
+                <div class="botao-un">
+                    <a href="prescricao-enfermagem.html">Prescrição de Enfermagem</a>
+                </div>
+                <div class="botao-un-active"><a href="sinais-vitais.html" class="botao-active">Sinais Vitais</a>
+                </div>
+                <div class="botao-un">
+                    <a href="ev-enfermagem.html">Evolução de Enfermagem</a>
+                </div>
+                <div class="botao-un">
+                    <a href="escala-complexidade.html">Escala de Complexidade Assistencial</a>
+                </div>
+                <div class="botao-un">
+                    <a href="escala-queda.html">Escala de Risco de Quedas</a>
+                </div>
+                <div class="botao-un">
+                    <a href="ev-curativo.html">Evolução de Curativo</a>
+                </div>
+            </nav>
+        </div>
+        <div class="size-default">
+            <h2 class="title-default">Sinais Vitais</h2>
+        <form>
+            <div class="flex-group">
+                <labeL>Frequência cardíaca:</labeL>
+                <div class="cardiac size-vital">
+                    <input placeholder="BPM (Batimentos por Minuto...)">
+                    <textarea placeholder="Considerações..."></textarea>
+                </div>
+                <label>Frequência Respiratória:</label>
+                <div class="breath size-vital">
+                    <input placeholder="mrm (Mov. respir. por Minuto...)">
+                    <textarea placeholder="Considerações..."></textarea>
+                </div>
+                <label>Pressão arterial:</label>
+                <div class="pressure size-vital">
+                    <input placeholder="mmHg (Milímetros de mercúrio...)">
+                    <textarea placeholder="Considerações..."></textarea>
+                </div>
+                <label>Temperatura:</label>
+                <div class="temp size-vital">
+                    <input placeholder="Celsius">
+                    <textarea placeholder="Considerações..."></textarea>
+                </div>
+            </div>
+            <div class="check-size">
+                <labeL>Frequência cardíaca:</labeL>
+                <div class="checkbox">
+                    <input type="radio" id="normal" name="cardiac" value="Normal">
+                    <label for="normal">Normal</label><br>
+                    <input type="radio" id="taquicardia" name="cardiac" value="Taquicardia">
+                    <label for="taquicardia">Taquicardia</label><br>
+                    <input type="radio" id="bradicardia" name="cardiac" value="bradicardia">
+                    <label for="bradicardia">Bradicardia</label>
+                    
+                </div>
+                <label>Frequência Respiratória:</label>
+                <div class="checkbox">
+                    <input type="radio" id="Eupneia" name="breath" value="Eupneia">
+                    <label for="Eupneia">Eupneia</label><br>
+                    <input type="radio" id="Bradipneia" name="breath" value="Bradipneia">
+                    <label for="Bradipneia">Bradipneia</label><br>
+                    <input type="radio" id="Taquipneia" name="breath" value="Taquipneia">
+                    <label for="Taquipneia">Taquipneia</label><br>
+                    <input type="radio" id="Apneia" name="breath" value="Apneia">
+                    <label for="Apneia">Apneia</label>
+
+                </div>
+                <label>Biotipo:</label>
+                <div class="checkbox">
+                    <input type="radio" id="Normolidio" name="biot" value="Normolidio">
+                    <label for="Normolidio">Normolídio</label><br>
+                    <input type="radio" id="Brevilinio" name="biot" value="Brevilinio">
+                    <label for="Brevilinio">Brevilínio</label><br>
+                    <input type="radio" id="Longilineo" name="biot" value="Longilineo">
+                    <label for="Longilineo">Longilíneo</label>
+                    
+
+                </div>
+                <label>Pulsos:</label>
+                <div class="checkbox">
+                    <input type="radio" id="Carotideo" name="arm" value="Carotideo">
+                    <label for="Carotideo">Carotídeo</label><br>
+                    <input type="radio" id="Braquial" name="arm" value="Braquial">
+                    <label for="Braquial">Braquial</label><br>
+                    <input type="radio" id="Radial" name="arm" value="Radial">
+                    <label for="Radial">Radial</label>
+                    
+
+                </div>
+            </div>
+            <div class="table-size">
+
+            </div>
+        </form>
+        </div>
+    </div>
+    <footer>
+        © Todo direito reservado ao uso dentro do Senac MG
+    </footer>
+</body>

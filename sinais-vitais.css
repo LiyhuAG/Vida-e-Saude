@@ -1,0 +1,63 @@
+form{
+    display: flex;
+    padding-top: 10px;
+    font-size: 17px;
+    height: 90%;
+}
+.flex-group{
+    width: 20%;
+}
+.table-size{
+    width:60%;
+}
+.check-size{
+    width: 20%;
+}
+.size-vital{
+    height: 20%;
+    border: 1px solid black;
+    width: 90%;
+    margin-bottom: 1%;
+}
+.flex-group input{
+    background-color: rgb(230, 214, 198);
+    height: 25%;
+    width: 100%;
+    border: 0;
+    padding-left: 10px;
+}
+textarea{
+    background-color: rgb(230, 214, 198);
+    height: 75%;
+    width: 100%;
+    border-top: 1px solid black;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+    padding-left: 10px;
+}
+.checkbox{
+    height: 20%;
+    border: 1px solid black;
+    width: 90%;
+    margin-bottom: 1%;
+    background-color: rgb(230, 214, 198);
+    padding-left: 10px;
+    padding-top: 10px;
+}
+/*Hover and Focus*/
+.checkbox label:hover{
+    background-color: rgb(224, 209, 192);
+}
+.flex-group input:hover{
+    background-color: rgb(224, 209, 192);
+}
+.flex-group input:focus{
+    background-color: rgb(224, 209, 192);
+}
+textarea:hover{
+    background-color: rgb(224, 209, 192);
+}
+textarea:focus{
+    background-color: rgb(224, 209, 192);
+}

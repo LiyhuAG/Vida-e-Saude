@@ -1,0 +1,11 @@
+form {
+    display: flex;
+    padding-top: 10px;
+    height: 48%;
+    font-size: 17px;
+}
+
+.half{
+    width: 50%;
+    height: 50%;
+}
