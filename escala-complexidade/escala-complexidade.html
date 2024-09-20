@@ -3,6 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vida e Saúde</title>
     <link href="../default.css" rel="stylesheet">
+    <link href="escala-complexidade.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
@@ -13,7 +14,7 @@
     <div class="container">
         <div class="logo-e-texto">
             <div class="logo"><a href="../initial/initial.html"><img src="..\Imagens\Logo Branca.png" alt="logo"
-                    width="100px" height="100px"></a>
+                        width="100px" height="100px"></a>
             </div>
             <div class="logo-texto">
                 <h1>Vida e Saúde</h1>
@@ -42,7 +43,8 @@
                     <a href="/ev-enfermagem/ev-enfermagem.html">Evolução de Enfermagem</a>
                 </div>
                 <div class="botao-un-active">
-                    <a href="/escala-complexidade/escala-complexidade.html"  class="botao-active">Escala de Complexidade Assistencial</a>
+                    <a href="/escala-complexidade/escala-complexidade.html" class="botao-active">Escala de Complexidade
+                        Assistencial</a>
                 </div>
                 <div class="botao-un">
                     <a href="/escala-queda/escala-queda.html">Escala de Risco de Quedas</a>
@@ -55,7 +57,101 @@
         <div class="size-default">
             <h2 class="title-default">Escala de Complexidade Assistencial</h2>
             <form>
-                <table>
+                    <label>Identificador</label>
+                    <input>
+                    <table>
+                        <th>Descrição</th>
+                        <th>Itens da Avaliação</th>
+                        <th>Pontos Atribuídos</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="9">Suporte Terapêutico</td>
+                        <td><input type="radio" id="sond-ves-per"><label for="sond-ves-per">Sonda Vesical Permanente</label></td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" id="sond-ves-int"><label for="sond-ves-int">Sonda Vesical Intermitente</td></label>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" id="tra-asp"><label for="tra-s-asp">Traqueostomia sem Aspiração</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" id="tra-c-asp"><label for="tra-c-asp">Traqueostomia com Aspiração</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" id="asp-via-aer"><label for="asp-via-aer">Aspiração de Vias Aéreas Sup.</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" id="aces-ven-c"><label for="aces-ven-c">Acesso Venoso Prof. Continuo</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" id="aces-ven-i"><label for="aces-ven-i">Acesso Venoso Intermitente</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" id="aces-ven-p"><label for="aces-ven-p">A. Venoso Periférico Continuo</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" id="dia-dom"><label for="dia-dom">Diálise Domiciliar</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="4">Quimioterapia</td>
+                        <td><input type="radio" id="oral"><label for="oral">Oral</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" id="sub-cul"><label for="sub-cul">Sub Cutânea</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" id="intra-ven"><label for="intra-ven">Intra Venosa</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" id="int-tec"><label for="int-tec">Intra Teca</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="4">Suporte Ventilatório</td>
+                        <td><input type="radio" id="o2-int"><label for="o2-int">O² Intermitente</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" id="o2-con"><label for="o2-con">O² Contínuo</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" id="vent-mec-int"><label for="vent-mec-int">Ventilação Mec.Intermitente</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" id="vent-mec-c"><label for="vent-mec-c">Ventilação Mecânica Contínua</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="4">Lesão Vascular/Cultânea</td>
+                        <td><input type="radio" id="ulc-1"><label for="ulc-1">Úlcera de Pressão Grau I</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" id="ulc-2"><label for="ulc-2">Úlcera de Pressão Grau II</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" id="ulc-3"><label for="ulc-3">Úlcera de Pressão Grau III</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" id="ulc-4"><label for="ulc-4">Úlcera de Pressão Grau IV</td>
+                        <td>5</td>
+                    </tr>
                 </table>
             </form>
         </div>
