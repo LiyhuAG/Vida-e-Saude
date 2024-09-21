@@ -98,7 +98,7 @@ button{
     width: 50px;
 }
 input[type=range] {
-    -webkit-appearance: none;
+    appearance: none;
     width: 150px;
 }
 input[type=range]::-webkit-slider-runnable-track {
