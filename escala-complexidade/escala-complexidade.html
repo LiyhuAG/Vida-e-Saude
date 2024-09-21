@@ -55,22 +55,30 @@
             </nav>
         </div>
         <div class="size-default">
+
             <h2 class="title-default">Escala de Complexidade Assistencial</h2>
+            <div class="sep-ind">
+                <label>Identificador</label>
+                <input class="identify">
+                <label class="label-ar">Total</label>
+                <input class="input-full" placeholder="Soma Total...">
+            </div>
             <form>
-                    <label>Identificador</label>
-                    <input>
-                    <table>
-                        <th>Descrição</th>
-                        <th>Itens da Avaliação</th>
-                        <th>Pontos Atribuídos</th>
+
+                <table>
+                    <th>Descrição</th>
+                    <th>Itens da Avaliação</th>
+                    <th>Pontos Atribuídos</th>
                     </tr>
                     <tr>
-                        <td rowspan="9">Suporte Terapêutico</td>
-                        <td><input type="radio" id="sond-ves-per"><label for="sond-ves-per">Sonda Vesical Permanente</label></td>
-                        <td>1</td>
+                        <th rowspan="9" width="30%">Suporte Terapêutico</th>
+                        <td width="50%"><input type="radio" id="sond-ves-per"><label for="sond-ves-per">Sonda Vesical
+                                Permanente</label></td>
+                        <td width="20%">1</td>
                     </tr>
                     <tr>
-                        <td><input type="radio" id="sond-ves-int"><label for="sond-ves-int">Sonda Vesical Intermitente</td></label>
+                        <td><input type="radio" id="sond-ves-int"><label for="sond-ves-int">Sonda Vesical Intermitente
+                        </td></label>
                         <td>2</td>
                     </tr>
                     <tr>
@@ -82,11 +90,13 @@
                         <td>5</td>
                     </tr>
                     <tr>
-                        <td><input type="radio" id="asp-via-aer"><label for="asp-via-aer">Aspiração de Vias Aéreas Sup.</td>
+                        <td><input type="radio" id="asp-via-aer"><label for="asp-via-aer">Aspiração de Vias Aéreas Sup.
+                        </td>
                         <td>3</td>
                     </tr>
                     <tr>
-                        <td><input type="radio" id="aces-ven-c"><label for="aces-ven-c">Acesso Venoso Prof. Continuo</td>
+                        <td><input type="radio" id="aces-ven-c"><label for="aces-ven-c">Acesso Venoso Prof. Continuo
+                        </td>
                         <td>5</td>
                     </tr>
                     <tr>
@@ -94,7 +104,8 @@
                         <td>4</td>
                     </tr>
                     <tr>
-                        <td><input type="radio" id="aces-ven-p"><label for="aces-ven-p">A. Venoso Periférico Continuo</td>
+                        <td><input type="radio" id="aces-ven-p"><label for="aces-ven-p">A. Venoso Periférico Continuo
+                        </td>
                         <td>5</td>
                     </tr>
                     <tr>
@@ -102,7 +113,7 @@
                         <td>5</td>
                     </tr>
                     <tr>
-                        <td rowspan="4">Quimioterapia</td>
+                        <th rowspan="4">Quimioterapia</th>
                         <td><input type="radio" id="oral"><label for="oral">Oral</td>
                         <td>1</td>
                     </tr>
@@ -119,7 +130,7 @@
                         <td>5</td>
                     </tr>
                     <tr>
-                        <td rowspan="4">Suporte Ventilatório</td>
+                        <th rowspan="4">Suporte Ventilatório</th>
                         <td><input type="radio" id="o2-int"><label for="o2-int">O² Intermitente</td>
                         <td>2</td>
                     </tr>
@@ -128,15 +139,17 @@
                         <td>3</td>
                     </tr>
                     <tr>
-                        <td><input type="radio" id="vent-mec-int"><label for="vent-mec-int">Ventilação Mec.Intermitente</td>
+                        <td><input type="radio" id="vent-mec-int"><label for="vent-mec-int">Ventilação Mec.Intermitente
+                        </td>
                         <td>4</td>
                     </tr>
                     <tr>
-                        <td><input type="radio" id="vent-mec-c"><label for="vent-mec-c">Ventilação Mecânica Contínua</td>
+                        <td><input type="radio" id="vent-mec-c"><label for="vent-mec-c">Ventilação Mecânica Contínua
+                        </td>
                         <td>5</td>
                     </tr>
                     <tr>
-                        <td rowspan="4">Lesão Vascular/Cultânea</td>
+                        <th rowspan="4">Lesão Vascular/Cultânea</th>
                         <td><input type="radio" id="ulc-1"><label for="ulc-1">Úlcera de Pressão Grau I</td>
                         <td>2</td>
                     </tr>
@@ -153,17 +166,17 @@
                         <td>5</td>
                     </tr>
                     <tr>
-                        <td rowspan="2">Dependência de Reabilitação 0
-                            Fisiot / Fono / Etc. Seções Diárias</td>
-                            <td><input type="radio" id="inde"><label for="inde">Independente</label></td>
-                            <td>0</td>
+                        <th rowspan="2">Dependência de Reabilitação 0
+                            Fisiot / Fono / Etc. Seções Diárias</th>
+                        <td><input type="radio" id="inde"><label for="inde">Independente</label></td>
+                        <td>0</td>
                     </tr>
                     <tr>
                         <td><input type="radio" id="depe"><label for="depe">Dependente</label></td>
                         <td>2</td>
                     </tr>
                     <tr>
-                        <td rowspan="5">Terapia Nutricional</td>
+                        <th rowspan="5">Terapia Nutricional</th>
                         <td><input type="radio" id="sup-ora"><label for="sup-ora">Suplementação Oral</label></td>
                         <td>1</td>
                     </tr>
@@ -183,9 +196,13 @@
                         <td><input type="radio" id="nut-par"><label for="nut-par">Nutrição Parenteral Total</label></td>
                         <td>5</td>
                     </tr>
-                    <tr><th colspan="2">Total</th><td><input></td></tr>
+
                 </table>
+                
             </form>
+            <div class="button-ar">
+            <button>Enviar</button>
+            </div>
         </div>
     </div>
     <footer>
