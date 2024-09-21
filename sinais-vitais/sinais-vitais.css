@@ -4,12 +4,26 @@ form{
     font-size: 17px;
     height: 90%;
 }
+.flex{
+    display:flex;
+}
+.half{
+    width: 50%;
+    padding-bottom: 20px;
+}
+.half-iten{
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: rgb(230, 214, 198);
+    padding-left: 10px;
+    padding-top: 10px;
+}
 .flex-group{
     width: 20%;
 }
 .table-size{
     width:60%;
-    padding-top: 20px;
 }
 .check-size{
     width: 20%;
@@ -73,6 +87,35 @@ button{
 }
 .button{
     padding-top:20px ;
+}
+.slider{
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+.box-slider{
+    background-color: rgb(230, 214, 198);
+    width: 50px;
+}
+input[type=range] {
+    -webkit-appearance: none;
+    width: 150px;
+}
+input[type=range]::-webkit-slider-runnable-track {
+    width: 150px;
+    height: 5px;
+    background: #000000;
+    border: none;
+    border-radius: 3px;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: rgb(143, 38, 38);
+    margin-top: -4px;
 }
 /*Hover and Focus*/
 .checkbox label:hover{
