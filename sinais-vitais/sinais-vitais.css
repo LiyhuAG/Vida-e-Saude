@@ -96,10 +96,11 @@ button{
 .box-slider{
     background-color: rgb(230, 214, 198);
     width: 50px;
+    border: 0;
 }
 input[type=range] {
     appearance: none;
-    width: 150px;
+    width: 200px;
 }
 input[type=range]::-webkit-slider-runnable-track {
     width: 150px;
