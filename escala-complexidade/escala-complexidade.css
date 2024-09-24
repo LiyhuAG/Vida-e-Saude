@@ -1,7 +1,10 @@
 form{
     padding-top: 10px;
+    display: block;
+}
+.justify-itens{
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 table,td,th{
     border: 1px solid black;
@@ -17,6 +20,7 @@ td{
 }
 table{
     background-color: rgb(230, 214, 198);
+    width:70%;
 }
 table label{
     padding-left: 10px;
@@ -28,7 +32,6 @@ table label{
 }
 .sep-ind{
     padding-top: 10px;
-    padding-left: 220px;
 }
 .label-ar{
     padding-left: 20px;
@@ -40,6 +43,8 @@ button{
     color: rgb(255, 255, 255);
     border-radius: 20px;
     font-size: 15px;
+    display: block;
+    margin-top: 10px;
 }
 .button-ar{
     padding-left: 220px;
