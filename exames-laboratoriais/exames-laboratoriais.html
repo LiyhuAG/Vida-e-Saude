@@ -7,13 +7,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
         rel="stylesheet">
+    <link href="exames-laboratoriais.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="container">
         <div class="logo-e-texto">
             <div class="logo"><a href="../initial/initial.html"><img src="..\Imagens\Logo Branca.png" alt="logo"
-                    width="100px" height="100px"></a>
+                        width="100px" height="100px"></a>
             </div>
             <div class="logo-texto">
                 <h1>Vida e Saúde</h1>
@@ -31,7 +32,8 @@
                 <div class="botao-un"><a href="../exame-fisico/exame-fisico.html">Exame Físico</a>
                 </div>
                 <div class="botao-un-active">
-                    <a href="../exames-laboratoriais/exames-laboratoriais.html" class="botao-active">Exames Laboratoriais</a>
+                    <a href="../exames-laboratoriais/exames-laboratoriais.html" class="botao-active">Exames
+                        Laboratoriais</a>
                 </div>
                 <div class="botao-un">
                     <a href="../prescricao-enfermagem/prescricao-enfermagem.html">Prescrição de Enfermagem</a>
@@ -47,10 +49,25 @@
                 <div class="botao-un">
                     <a href="../escala-queda/escala-queda.html">Escala de Risco de Quedas</a>
                 </div>
-                
+
             </nav>
         </div>
-        <!--escrever aqui-->
+        <div class="size-default">
+            <div class="title-default">Exames Laboratoriais</div>
+        <div class="flex-box">
+            <div class="carousel-container">
+                <div class="carousel">
+                    <img src="../Imagens/Logo Branca.png" alt="Imagem 1">
+                    <img src="../Imagens/Logo Branca.png" alt="Imagem 2">
+                    <img src="../Imagens/Logo Branca.png" alt="Imagem 3">
+                    <img src="../Imagens/Logo Branca.png" alt="Imagem 4">
+                </div>
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+        </div>
+    </div>
+        <script src="exames-laboratoriais.js"></script>
     </div>
     <footer>
         © Todo direito reservado ao uso dentro do Senac MG
