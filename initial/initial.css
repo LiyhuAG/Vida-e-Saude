@@ -14,13 +14,16 @@
 }
 .box-center{
     display: block;
+    background-color: rgb(219, 198, 176);
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 10px;
+
 }
 .box-cima{
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(219, 198, 176);
-    border: 1px solid;
-    border-radius: 20px;
-    margin: 10px;
+    padding-top: 10px;
+    font-size: 17px;
 }
