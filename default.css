@@ -80,6 +80,7 @@ footer{
     align-items: end;
     justify-content: end;
     height: 5%;
+    padding-right: 10px;
 }
 .size-default{
     width: 80%;
