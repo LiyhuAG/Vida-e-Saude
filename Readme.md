@@ -7,3 +7,4 @@ Caso eu consiga integrar o banco de dados, e relacionar ele, dia 20/08 vai ser a
 Esse código é livre e pode ser usado por qualquer um que queira (mesmo eu não recomendando), é meu primeiro código e estou testando diversas funções nele, além de alterações constantes e lançamento de versões constantes.
 
 da duda
+dsfadsf
